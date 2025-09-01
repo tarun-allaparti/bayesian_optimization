@@ -1,0 +1,64 @@
+{
+  "functions": [
+    {
+      "name": "Sphere",
+      "call": "functions.sphere(x)",
+      "dimensions": 2,
+      "objectives": 1,
+      "domain": {
+        "x1": [-5, 5],
+        "x2": [-5, 5]
+      },
+      "optima": {
+        "value": 100,
+        "location": [0, 0]
+      }
+    },
+    {
+      "name": "Branin",
+      "call": "functions.branin(x)",
+      "dimensions": 2,
+      "objectives": 1,
+      "domain": {
+        "x1": [-5, 10],
+        "x2": [0, 15]
+      },
+      "optima": {
+        "value": 0.397887,
+        "locations": [
+          [-3.14159, 12.275],
+          [-3.14159, 2.275],
+          [9.42478, 2.475]
+        ]
+      }
+    },
+    {
+      "name": "Rosenbrock",
+      "call": "functions.rosenbrock(x)",
+      "dimensions": 2,
+      "objectives": 1,
+      "domain": {
+        "x1": [-2, 2],
+        "x2": [-1, 3]
+      },
+      "optima": {
+        "value": 100,
+        "location": [1, 1]
+      }
+    },
+    {
+      "name": "McCormick",
+      "call": "functions.mccormick(x)",
+      "dimensions": 2,
+      "objectives": 1,
+      "domain": {
+        "x1": [-1.5, 4],
+        "x2": [-3, 4]
+      },
+      "optima": {
+        "value": -1.9133,
+        "location": [-0.54719, -1.54719]
+      }
+    }
+  ]
+}
