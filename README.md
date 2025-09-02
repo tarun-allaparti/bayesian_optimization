@@ -15,13 +15,7 @@ To explore the **interactive Streamlit app**, run:
 
 ```bash
 streamlit run app.py
-```
 
-To follow the **notebook demo**, open:
-
-```text
-notebooks/BO_workflow_demo.ipynb
-```
 
 ## Example Objective Functions
 
@@ -30,7 +24,5 @@ notebooks/BO_workflow_demo.ipynb
 * Rosenbrock
 * McCormick
 
-Visualizations include **3D surfaces**, **contour plots**, and **optimization performance over iterations**.
+Visualizations include **3D surfaces**, **contour plots**, and **optimization performance over iterations**. Feel free to add any mathematical equations of your own to the code, or even ML models you have used for projects, and you can see how BO can accelerate the hyperparameter tuning.
 
--
-Do you want me to do that?
