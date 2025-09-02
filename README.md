@@ -9,20 +9,21 @@ The goal of this project is to **understand and visualize Bayesian Optimization*
 * **Jupyter Notebook Workflow:** Step through the BO process in a detailed notebook, exploring surrogate models, acquisition functions, and iterative optimization.
 * **Interactive Streamlit App:** Experiment with different objective functions, visualize the optimization surface, and see Bayesian Optimization in action in real-time.
 
-## Getting Started
+Getting Started
 
-To explore the **interactive Streamlit app**, run:
+To explore the interactive Streamlit app, run:
 
-```bash
 streamlit run app.py
 
+Example Objective Functions
 
-## Example Objective Functions
+Sphere
 
-* Sphere
-* Branin
-* Rosenbrock
-* McCormick
+Branin
+
+Rosenbrock
+
+McCormick
 
 Visualizations include **3D surfaces**, **contour plots**, and **optimization performance over iterations**. Feel free to add any mathematical equations of your own to the code, or even ML models you have used for projects, and you can see how BO can accelerate the hyperparameter tuning.
 
